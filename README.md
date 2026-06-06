@@ -1,9 +1,17 @@
 # clean-template
 
-Copy this template this template to the directory
-/Users/<your_home>/Library/Developer/Xcode/Templates/MVVM+R+Hosting.xctemplate
+Xcode File Template for generating MVVM + Router + HostingController modules.
 
-If the folder Templates doesn't exists, you need to create it.
+# How To Install
+1. Clone the repository
+2. Navigate to Xcode Templates folder: ```~/Library/Developer/Xcode/Templates/```. If Templates folder doesn't exist, create it
+3. Copy and paste the MVVM+R+Hosting.xctemplate in Templates folder
+
+# Use
+1. Open Xcode
+2. ```File -> New -> File``` or ```⌘ N```
+3. Scroll down till you see ```MVVM+R+Hosting``` template and choose it.
+4. Set a name for your module. Examples: ```Home, Auth, SignIn```
 
 
 Each new scene created through the template includes: 
